@@ -28,16 +28,18 @@
       </properties>
     </developer>
     <developer>
-      <id>Rigbin</id>
-      <name>Harald Schwab</name>
-      <email>harald.schwab2@fh-joanneum.at</email>
-      <url>https://github.com/Rigbin</url>
-      <organization>FH JOANNEUM GmbH</organization>
-      <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
+      <id>ninawaldner</id>
+      <name>Nina Waldner</name>
+      <email>nina.waldner@edu.campus02.at</email>
+      <url>https://github.com/rosa-steinkellner/20-Abgabe02-Steinkellner-Waldner</url>
+      <organization>FH Campus02</organization>
+      <organizationUrl>https://www.campus02.at</organizationUrl>
       <roles>
-        <role>Researcher</role>
+        <role>Student</role>
       </roles>
       <timezone>Europe/Vienna</timezone>
+       <properties>
+       <picUrl>https://avatars0.githubusercontent.com/u/57989561?s=400&u=8accdfa28844d20deaeee71cb00750abc2cc92e1&v=4</picUrl>
       <properties/>
     </developer>
   </developers>
