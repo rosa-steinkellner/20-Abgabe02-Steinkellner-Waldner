@@ -13,18 +13,18 @@
 
   <developers>
     <developer>
-      <id>michaelulm</id>
-      <name>Michael Ulm</name>
-      <email>michael.ulm@fh-joanneum.at</email>
-      <url>https://www.michael-ulm.at</url>
-      <organization>FH JOANNEUM GmbH</organization>
-      <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
+      <id>rosa-steinkellner</id>
+      <name>Rosa Steinkellner</name>
+      <email>rosa.steinkellner@edu.campus02.at</email>
+      <url>https://github.com/rosa-steinkellner/20-Abgabe02-Steinkellner-Waldner</url>
+      <organization>FH Campus 02</organization>
+      <organizationUrl>https://www.campus02.at/</organizationUrl>
       <roles>
-        <role>Lecturer</role>
+        <role>Student</role>
       </roles>
       <timezone>Europe/Vienna</timezone>
       <properties>
-        <picUrl>https://avatars2.githubusercontent.com/u/15637184</picUrl>
+        <picUrl>https://avatars2.githubusercontent.com/u/64247534</picUrl>
       </properties>
     </developer>
     <developer>
