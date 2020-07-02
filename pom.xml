@@ -87,4 +87,26 @@
       </plugin>
     </plugins>
   </build>
+
+  <reporting>
+        <plugins>
+		
+            <!-- maven site for documentation -->
+			<!-- manual upgraded maven site plugin, because 3.3 had an error -->
+            <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.7.1</version>
+            </plugin>
+        </plugins>
+    </reporting>
+	
+    <!-- define SCM and will be read by generating maven site -->
+    <scm>
+        <connection>scm:git:https://github.com/rosa-steinkellner/20-Abgabe02-Steinkellner-Waldner</connection>
+        <developerConnection>scm:git:https://github.com/rosa-steinkellner/20-Abgabe02-Steinkellner-Waldner</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/rosa-steinkellner/20-Abgabe02-Steinkellner-Waldner</url>
+    </scm>
+
 </project>
