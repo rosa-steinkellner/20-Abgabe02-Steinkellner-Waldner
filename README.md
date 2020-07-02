@@ -1,6 +1,6 @@
-# Software Configuration Management #
+# 20-Abgabe02-Steinkellner-Waldner #
 
-**EDUCATION Repository**
+**Queue Repository**
 
 ## Test Automation with JUnit5 ##
 
