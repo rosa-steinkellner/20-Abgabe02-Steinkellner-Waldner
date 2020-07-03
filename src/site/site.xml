@@ -15,9 +15,10 @@
                 <item href="plugins.html" name="Plugins" />
                 <item href="summary.html" name="Summary" />
                 <item href="team.html" name="Team" />
+                </item>
                 <item name="Answered Questions" href="questions.html" />
-                <!--item name="Code Snippets" href="snippets.html" /-->
-            </item>
+                <item name="Code Snippets" href="snippets.html" />
+
         </menu>
 
         <menu ref="modules"/>
