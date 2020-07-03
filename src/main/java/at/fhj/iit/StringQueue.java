@@ -11,11 +11,11 @@ import java.util.NoSuchElementException;
 
 public class StringQueue implements IQueue {
 
-  private List<String> elements = new ArrayList<String>();
-  private int maxSize = 5;
+  private final List<String> elements = new ArrayList<>();
+  private final int maxSize;
 
-  public StringQueue(int maxsize) {
-    maxSize = maxSize;
+  public StringQueue(int maxSize) {
+    this.maxSize = maxSize;
   }
 
   @Override
