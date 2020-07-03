@@ -3,8 +3,8 @@
 ### Code Snippets ###
 
 <b>Testing Method of GenericQueueStringTest</b>
-``` java
-   /**
+
+    /**
      * To test if the Exception gets thrown in the element method, first both elements are removed. Then element() is called
      * one more time on the now empty queue. This should throw the NoSuchElementException.
      */
@@ -15,24 +15,24 @@
         genericQueue.remove();
         assertThrows(NoSuchElementException.class, () -> genericQueue.element());
     }
-```
-<br/>
-<b>GenericQueue class header displaying the Generic Implementation<b/>
-``` java
-/**
- * This class represents a Queue that contains objects of a Generic Class. It implements the IQueue interface and therefore has all its
- * methods.
- * @param <T> Generic Class
- */
-public class GenericQueue <T> implements IQueue<T>{
 
-    private final List<T> elements = new ArrayList<>();
-    private final int maxSize;
-```
 <br/>
-<b>Testing Method of StringQueueTest<b/>
-``` java
-  /**
+<b>GenericQueue class header displaying the Generic Implementation</b> 
+
+    /**
+    *  This class represents a Queue that contains objects of a Generic Class. It implements the IQueue interface and therefore has all its
+    * methods.
+     * @param <T> Generic Class
+     */
+    public class GenericQueue <T> implements IQueue<T>{
+        private final List<T> elements = new ArrayList<>();
+        private final int maxSize;
+    }
+
+<br/>
+<b>Testing Method of StringQueueTest</b>
+
+    /**
      * This methods returns a boolean, depending on its success. To test the "true" case, one element is added to the queue
      * which initially has 2 elements. To test the "false" case, 3 elements are added so the queue reaches its max
      * capacity before trying to add another.
@@ -46,5 +46,5 @@ public class GenericQueue <T> implements IQueue<T>{
         stringQueue.offer("Stormy");
         assertFalse(stringQueue.offer("Angry"));
     }
-```
+
 
