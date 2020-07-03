@@ -23,7 +23,7 @@ public class StringQueue implements IQueue<String> {
 
   /**
    * This is the constructor which sets the max size to a final value.
-   * @param maxSize
+   * @param maxSize is the size the list will be set to
    */
   public StringQueue(int maxSize) {
     this.maxSize = maxSize;
@@ -31,7 +31,7 @@ public class StringQueue implements IQueue<String> {
   /**
    * Adds the element obj to the queue.
    * If the addition is successful, the method returns true else false.
-   * @param obj
+   * @param obj the object to be added
    * @return boolean depending on the success of the operation
    */
   @Override
