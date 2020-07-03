@@ -7,10 +7,19 @@
 
     <body>
         <menu name="Queue Exercise">
-            <item name="The Project" href="index.html"/>
-            <item name="Answered Questions" href="questions.html" />
+                <item name="Introduction" href="index.html"/>
+                <item href="project-info.html" name="Project Information">
+                <item href="dependencies.html" name="Dependencies" />
+                <item href="dependency-info.html" name="Dependency Information" />
+                <item href="plugin-management.html" name="Plugin Management" />
+                <item href="plugins.html" name="Plugins" />
+                <item href="summary.html" name="Summary" />
+                <item href="team.html" name="Team" />
+                <item name="Answered Questions" href="questions.html" />
+                <!--item name="Code Snippets" href="snippets.html" /-->
+            </item>
         </menu>
 
-        <menu ref="reports"/>
+        <menu ref="modules"/>
     </body>
 </project>

@@ -16,15 +16,15 @@ In this project, we are exploring the world of Test Automation with JUnit5 with 
 
 <b> The Task List:</b>
 
-- [ ] write JavaDoc for everything
-- [ ] JavaDoc Documentation as Maven Site Export
+- [x] write JavaDoc for everything
+- [x] JavaDoc Documentation as Maven Site Export
 - [x] find bugs in the StringQueue.java file
 - [x] fix bugs in the StringQueue.java file
-- [ ] create  a new Queue Implementation that works with Generics 
+- [x] create  a new Queue Implementation that works with Generics 
 - [x] Maven Build without warnings
-- [ ] write test methods for StringQueue
-- [ ] write test methods for GenericsQueue
-- [ ] achieve 100% Test Coverage 
-- [ ] create a Maven Site
-- [ ] Maven Site Export
-- [ ] Tick all Task List elements
+- [x] write test methods for StringQueue
+- [x] write test methods for GenericsQueue
+- [x] achieve 100% Test Coverage 
+- [x] create a Maven Site
+- [x] Maven Site Export
+- [x] Tick all Task List elements
