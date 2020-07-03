@@ -2,134 +2,133 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>at.fhj.iit</groupId>
-  <artifactId>Queue</artifactId>
-  <version>1.0-SNAPSHOT</version>
+    <groupId>at.fhj.iit</groupId>
+    <artifactId>Queue</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
-  <name>Queue</name>
-  <url>https://github.com/michaelulm/software-configuration-management/tree/master/test-automation/junit5/Queue</url>
+    <name>Queue</name>
+    <url>https://github.com/michaelulm/software-configuration-management/tree/master/test-automation/junit5/Queue</url>
 
-  <developers>
-    <developer>
-      <id>rosa-steinkellner</id>
-      <name>Rosa Steinkellner</name>
-      <email>rosa.steinkellner@edu.campus02.at</email>
-      <url>https://github.com/rosa-steinkellner/20-Abgabe02-Steinkellner-Waldner</url>
-      <organization>FH Campus 02</organization>
-      <organizationUrl>https://www.campus02.at/</organizationUrl>
-      <roles>
-        <role>Student</role>
-      </roles>
-      <timezone>Europe/Vienna</timezone>
-      <properties>
-        <picUrl>https://avatars2.githubusercontent.com/u/64247534</picUrl>
-      </properties>
-    </developer>
+    <developers>
+        <developer>
+            <id>rosa-steinkellner</id>
+            <name>Rosa Steinkellner</name>
+            <email>rosa.steinkellner@edu.campus02.at</email>
+            <url>https://github.com/rosa-steinkellner/20-Abgabe02-Steinkellner-Waldner</url>
+            <organization>FH Campus 02</organization>
+            <organizationUrl>https://www.campus02.at/</organizationUrl>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+            <properties>
+                <picUrl>https://avatars2.githubusercontent.com/u/64247534</picUrl>
+            </properties>
+        </developer>
 
-    <developer>
-      <id>ninawaldner</id>
-      <name>Nina Waldner</name>
-      <email>nina.waldner@edu.campus02.at</email>
-      <url>https://github.com/rosa-steinkellner/20-Abgabe02-Steinkellner-Waldner</url>
-      <organization>FH Campus02</organization>
-      <organizationUrl>https://www.campus02.at</organizationUrl>
-      <roles>
-        <role>Student</role>
-      </roles>
-      <timezone>Europe/Vienna</timezone>
-       <properties>
-       <picUrl>https://avatars0.githubusercontent.com/u/57989561</picUrl>
-      </properties>
-    </developer>
-  </developers>
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.comiler.release>11</maven.comiler.release>
-  </properties>
+        <developer>
+            <id>ninawaldner</id>
+            <name>Nina Waldner</name>
+            <email>nina.waldner@edu.campus02.at</email>
+            <url>https://github.com/rosa-steinkellner/20-Abgabe02-Steinkellner-Waldner</url>
+            <organization>FH Campus02</organization>
+            <organizationUrl>https://www.campus02.at</organizationUrl>
+            <roles>
+                <role>Student</role>
+            </roles>
+            <timezone>Europe/Vienna</timezone>
+            <properties>
+                <picUrl>https://avatars0.githubusercontent.com/u/57989561</picUrl>
+            </properties>
+        </developer>
+    </developers>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.comiler.release>11</maven.comiler.release>
+    </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>5.6.2</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>5.6.2</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-params</artifactId>
-      <version>5.6.2</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.6.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.6.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.6.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.0</version>
-        <configuration>
-          <release>11</release>
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>2.22.1</version>
-      </plugin>
-      <!-- maven site for documentation -->
-      <!-- manual upgraded maven site plugin, because 3.3 had an error -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-site-plugin</artifactId>
-        <version>3.7.1</version>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-project-info-reports-plugin</artifactId>
-        <version>3.0.0</version>
-      </plugin>
-      <!-- java doc support for maven site -->
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-javadoc-plugin</artifactId>
-        <version>3.2.0</version>
-        <configuration>
-          <show>private</show>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <release>11</release>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.1</version>
+            </plugin>
+            <!-- maven site for documentation -->
+            <!-- manual upgraded maven site plugin, because 3.3 had an error -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.7.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.0.0</version>
+            </plugin>
+            <!-- java doc support for maven site -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <show>private</show>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
-  <reporting>
-    <plugins>
-    <!-- java doc support for maven site -->
-    <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-javadoc-plugin</artifactId>
-      <version>3.2.0</version>
-      <configuration>
-        <show>private</show>
-      </configuration>
-    </plugin>
-    </plugins>
-  </reporting>
-	
+    <reporting>
+        <plugins>
+            <!-- java doc support for maven site -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <show>public</show>
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
+
     <!-- define SCM and will be read by generating maven site -->
     <scm>
         <connection>scm:git:https://github.com/rosa-steinkellner/20-Abgabe02-Steinkellner-Waldner</connection>
-        <developerConnection>scm:git:https://github.com/rosa-steinkellner/20-Abgabe02-Steinkellner-Waldner</developerConnection>
+        <developerConnection>scm:git:https://github.com/rosa-steinkellner/20-Abgabe02-Steinkellner-Waldner
+        </developerConnection>
         <tag>HEAD</tag>
         <url>https://github.com/rosa-steinkellner/20-Abgabe02-Steinkellner-Waldner</url>
     </scm>
-
-
 </project>
