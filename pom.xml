@@ -44,7 +44,6 @@
       </properties>
     </developer>
   </developers>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.comiler.release>11</maven.comiler.release>
@@ -86,21 +85,26 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.22.1</version>
       </plugin>
+      <!-- maven site for documentation -->
+      <!-- manual upgraded maven site plugin, because 3.3 had an error -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>3.7.1</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>3.0.0</version>
+      </plugin>
+      <!-- java doc support for maven site -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.2.0</version>
+      </plugin>
     </plugins>
   </build>
-
-  <reporting>
-        <plugins>
-		
-            <!-- maven site for documentation -->
-			<!-- manual upgraded maven site plugin, because 3.3 had an error -->
-            <plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-site-plugin</artifactId>
-                <version>3.7.1</version>
-            </plugin>
-        </plugins>
-    </reporting>
 	
     <!-- define SCM and will be read by generating maven site -->
     <scm>
