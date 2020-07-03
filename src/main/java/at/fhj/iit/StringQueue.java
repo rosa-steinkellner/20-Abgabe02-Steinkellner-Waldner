@@ -7,7 +7,7 @@ import java.util.NoSuchElementException;
 
 // there's some Bugs included, try to debug the code and fix the Bugs
 // there are different Bugs, wrong implementation, typos, ...
-// write Test-Cases (read Queue Interface for understanding methods) and use Debugging possibilies of your IDE
+// write Test-Cases (read Queue Interface for understanding methods) and use Debugging possibilities of your IDE
 
 /**
  * This class represents a Queue that contains Strings. It implements the IQueue interface and therefore has all its
@@ -16,7 +16,7 @@ import java.util.NoSuchElementException;
  * @author Nina Waldner
  *
  */
-public class StringQueue implements IQueue {
+public class StringQueue implements IQueue<String> {
 
   private final List<String> elements = new ArrayList<>();
   private final int maxSize;
